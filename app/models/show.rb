@@ -10,7 +10,6 @@ class Show < ActiveRecord::Base
   
   def self.lowest_rating
     self.minimum(:rating)
-    binding.pry
   end
   
   def self.least_popular_show
