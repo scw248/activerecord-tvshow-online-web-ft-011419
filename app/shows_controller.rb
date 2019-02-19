@@ -1,3 +1,3 @@
 def highest_rating
-  Show.maximum(:number_of_stars)
+  Show.maximum(:rating)
 end
