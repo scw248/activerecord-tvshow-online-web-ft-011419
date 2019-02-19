@@ -1,2 +1,2 @@
 def highest_rating
-endx
+end
